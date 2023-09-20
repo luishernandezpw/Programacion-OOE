@@ -1,7 +1,10 @@
 ﻿Module Module1
 
     Sub Main()
-        Console.WriteLine("Bienvenidos a Programacion Orientada a Objetos y Eventos.")
+        Dim nombre As String
+        nombre = "Luis Hernandez"
+
+        Console.Write("Hola " + nombre)
 
         Console.ReadLine()
     End Sub
