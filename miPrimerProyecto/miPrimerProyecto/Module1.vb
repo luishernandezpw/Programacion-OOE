@@ -1,20 +1,18 @@
 ﻿Module Module1
 
     Sub Main()
-        Dim nombre As String
-        nombre = "Luis Hernandez"
+        'realizar un programa en VB.NET que solicite dos numeros al usuario y muestre la suma de ellos.
+        Dim num1, num2, respuesta As Double
 
-        Dim edad As SByte
-        edad = 35
+        Console.Write("Num 1:")
+        num1 = Console.ReadLine()
 
-        Dim cum As Double
-        cum = 9.5
+        Console.Write("Num 2: ")
+        num2 = Console.ReadLine()
 
-        Dim gustaProgramar As Boolean 'True o False
-        gustaProgramar = True
+        respuesta = num1 + num2
 
-        Console.Write("Mi nombre es: " + nombre + "; Mi edad: " + edad.ToString() + "; Me gusta programar: " +
-                      gustaProgramar.ToString() + "; Mi CUM: " + cum.ToString()) ' 25 => "25"
+        Console.WriteLine("La suma es: " + respuesta.ToString())
 
         Console.ReadLine()
     End Sub
