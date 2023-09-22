@@ -10,28 +10,35 @@
         'Larga vida 81 - x
 
         Try
-            Dim edad As SByte
+            Dim edad As Int16
 
             Console.Write("Edad: ")
             edad = Console.ReadLine()
 
-            If (edad < 0) Then
-                Console.WriteLine("Error en la edad")
-            ElseIf (edad <= 2) Then
-                Console.WriteLine("Eres un bebe")
-            ElseIf (edad <= 11) Then
-                Console.WriteLine("Eres un niño")
-            ElseIf (edad <= 17) Then
-                Console.WriteLine("Eres un adolescente")
-            ElseIf (edad <= 65) Then
-                Console.WriteLine("Eres un adulto, tienes responsablidades")
-            ElseIf (edad <= 80) Then
-                Console.WriteLine("Adulto mayor, te ama tu familia ")
-            ElseIf (edad > 80) Then
-                Console.WriteLine("Larga vidad...")
-            End If
+            Select Case edad
+                Case 0 To 2
+                    Console.Write("Eres un bebe")
+
+                Case 3 To 11
+                    Console.Write("Eres un niño")
+
+                Case 12 To 17
+                    Console.Write("Eres un adolescente")
+
+                Case 18 To 65
+                    Console.Write("Eres responsable de tus acciones")
+
+                Case 66 To 80
+                    Console.Write("Eres un adulto mayor, te ama tu familia")
+
+                Case 81 To 127
+                    Console.Write("Larga vidad")
+
+                Case Else
+                    Console.Write("Error en la edad")
+            End Select
         Catch oError As Exception
-            Console.WriteLine("Por favor ingrese solo valores enteros. " + oError.Message)
+            Console.WriteLine("Por favor ingrese solo valores enteros. " + oError.StackTrace)
         End Try
         Console.ReadLine()
     End Sub
