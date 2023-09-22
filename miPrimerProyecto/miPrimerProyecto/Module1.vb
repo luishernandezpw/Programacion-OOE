@@ -8,39 +8,44 @@
         'mayor de edad 18-65
         'Adulto mayor de 66 - 80
         'Larga vida 81 - x
+        While (True)
+            Try
+                Dim edad As Int16
+                Console.Write("Edad: ")
+                edad = Console.ReadLine()
 
-        Try
-            Dim edad As Int16
+                Select Case edad
+                    Case 0 To 2
+                        Console.WriteLine("Eres un bebe")
 
-            Console.Write("Edad: ")
-            edad = Console.ReadLine()
+                    Case 3 To 11
+                        Console.WriteLine("Eres un niño")
 
-            Select Case edad
-                Case 0 To 2
-                    Console.Write("Eres un bebe")
+                    Case 12 To 17
+                        Console.WriteLine("Eres un adolescente")
 
-                Case 3 To 11
-                    Console.Write("Eres un niño")
+                    Case 18 To 65
+                        Console.WriteLine("Eres responsable de tus acciones")
 
-                Case 12 To 17
-                    Console.Write("Eres un adolescente")
+                    Case 66 To 80
+                        Console.WriteLine("Eres un adulto mayor, te ama tu familia")
 
-                Case 18 To 65
-                    Console.Write("Eres responsable de tus acciones")
+                    Case 81 To 127
+                        Console.WriteLine("Larga vidad")
 
-                Case 66 To 80
-                    Console.Write("Eres un adulto mayor, te ama tu familia")
+                    Case Else
+                        Console.WriteLine("Error en la edad")
+                End Select
 
-                Case 81 To 127
-                    Console.Write("Larga vidad")
-
-                Case Else
-                    Console.Write("Error en la edad")
-            End Select
-        Catch oError As Exception
-            Console.WriteLine("Por favor ingrese solo valores enteros. " + oError.StackTrace)
-        End Try
-        Console.ReadLine()
+                Console.Write("Deseas salir presiona (s), sino enter: ")
+                Dim salir = Console.ReadLine()
+                If (salir.ToLower() = "s") Then
+                    Exit While
+                End If
+            Catch oError As Exception
+                Console.WriteLine("Por favor ingrese solo valores enteros. " + oError.StackTrace)
+            End Try
+        End While
     End Sub
 
 End Module
