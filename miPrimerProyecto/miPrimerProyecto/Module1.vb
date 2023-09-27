@@ -4,16 +4,16 @@
         'Clases y objetos
         'Clase estudiante
         'Objeto objEstudiante
-        Dim objEstudiante As New estudiante()
+        Dim objEstudiante As New estudiante("USIS018804", "Luis Hernandez", 25)
 
-        Console.Write("Ingrese su codigo: ")
-        objEstudiante.setCodigo(Console.ReadLine())
+        'Console.Write("Ingrese su codigo: ")
+        'objEstudiante.setCodigo(Console.ReadLine())
 
-        Console.Write("Ingrese su nombre: ")
-        objEstudiante.setNombre(Console.ReadLine())
+        'Console.Write("Ingrese su nombre: ")
+        'objEstudiante.setNombre(Console.ReadLine())
 
-        Console.Write("Edad: ")
-        objEstudiante.setEdad(Console.ReadLine())
+        'Console.Write("Edad: ")
+        'objEstudiante.setEdad(Console.ReadLine())
 
         Console.Write("Act 1: ")
         objEstudiante.setAct1(Console.ReadLine())
@@ -40,7 +40,7 @@
         objEstudiante.setAct8(Console.ReadLine())
 
         Console.WriteLine("Hola, " + objEstudiante.getNombre + ", edad: " +
-                          objEstudiante.getEdad.ToString() + ", NF: " + Math.Round(objEstudiante.calcularNf(), 1).ToString())
+                          objEstudiante.getEdad.ToString() + ", Nota Final: " + Math.Round(objEstudiante.calcularNf(), 1).ToString())
 
         Console.ReadKey()
 
@@ -48,10 +48,15 @@
 
 
     Class estudiante
-        Dim codigo, nombre As String
-        Dim edad As SByte
-        Dim act1, act2, act3, act4, act5, act6, act7, act8 As Double
+        Private codigo, nombre As String
+        Private edad As SByte
+        Private act1, act2, act3, act4, act5, act6, act7, act8 As Double
 
+        Public Sub New(ByVal codigo As String, ByVal nombre As String, ByVal edad As SByte)
+            Me.codigo = codigo
+            Me.nombre = nombre
+            Me.edad = edad
+        End Sub
         Public Sub setCodigo(ByVal cod As String)
             Me.codigo = cod
         End Sub
@@ -133,5 +138,9 @@
         Public Function calcularNf()
             Return (Me.act1 + Me.act2 + Me.act3 + Me.act4 + Me.act5 + Me.act6 + Me.act7 + Me.act8) / 8
         End Function
+        Public Function calcularNf(ByVal valor As SByte)
+            Return (Me.act1 + Me.act2 + Me.act3 + Me.act4 + Me.act5 + Me.act6 + Me.act7 + Me.act8) / valor
+        End Function
+
     End Class
 End Module
