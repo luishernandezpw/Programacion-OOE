@@ -8,3 +8,4 @@ C:\Users\Luis Hernandez\Source\Repos\Programacion-OOE\miPrimerProyecto\miPrimerP
 C:\Users\Luis Hernandez\Source\Repos\Programacion-OOE\miPrimerProyecto\miPrimerProyecto\obj\Debug\miPrimerProyecto.exe
 C:\Users\Luis Hernandez\Source\Repos\Programacion-OOE\miPrimerProyecto\miPrimerProyecto\obj\Debug\miPrimerProyecto.xml
 C:\Users\Luis Hernandez\Source\Repos\Programacion-OOE\miPrimerProyecto\miPrimerProyecto\obj\Debug\miPrimerProyecto.pdb
+C:\Users\Luis Hernandez\Source\Repos\Programacion-OOE\miPrimerProyecto\miPrimerProyecto\obj\Debug\miPrimerProyecto.vbprojAssemblyReference.cache
