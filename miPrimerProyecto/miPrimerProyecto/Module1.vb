@@ -3,16 +3,12 @@
     Sub Main()
         'Clases y objetos
         'Clase Calculadora
-        Dim objCal As New Calculadora()
-
-        Console.Write("Num 1: ")
-        objCal.num1 = Console.ReadLine()
-
-        Console.Write("Num 2: ")
-        objCal.num2 = Console.ReadLine()
-
-        Console.WriteLine("Suma: " + objCal.sumar().ToString() + ", Resta: " + objCal.restar().ToString())
-
+        Dim objEjercicios As New Ejercicios()
+        'Console.WriteLine("El Mayor es: " + objEjercicios.mayor().ToString())
+        'Console.WriteLine("El numero es: " + objEjercicios.par_impar().ToString())
+        'Console.WriteLine("El numero es: " + objEjercicios.primo().ToString())
+        'objEjercicios.sec_fibonacci()
+        Console.WriteLine("El numero en letras es: " + objEjercicios.num_letras().ToString())
         Console.ReadKey()
 
     End Sub
