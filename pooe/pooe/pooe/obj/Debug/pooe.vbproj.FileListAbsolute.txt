@@ -1,0 +1,12 @@
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\obj\Debug\pooe.vbprojAssemblyReference.cache
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\obj\Debug\pooe.Form1.resources
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\obj\Debug\pooe.Resources.resources
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\obj\Debug\pooe.vbproj.GenerateResource.cache
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\obj\Debug\pooe.vbproj.CoreCompileInputs.cache
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\bin\Debug\pooe.exe.config
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\bin\Debug\pooe.exe
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\bin\Debug\pooe.pdb
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\bin\Debug\pooe.xml
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\obj\Debug\pooe.exe
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\obj\Debug\pooe.xml
+C:\Users\Luis Hernandez\source\repos\Programacion-OOE\pooe\pooe\pooe\obj\Debug\pooe.pdb
