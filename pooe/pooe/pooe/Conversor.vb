@@ -2,7 +2,8 @@
     Public etiquetas As String()() = {
         New String() {"Dolar", "Euro", "Quetzal", "Lempiras", "Colon SV", "Cordoba", "Colon CR"},
         New String() {"Metro", "Cm", "Pulgada", "Pies", "Varas", "Yardas", "Km", "Millas"},
-        New String() {"Dia", "Segundos", "Minutos", "Horas", "Semana", "Mes", "Año", "Decada", "Siglo"}
+        New String() {"Dia", "Segundos", "Minutos", "Horas", "Semana", "Mes", "Año", "Decada", "Siglo"},
+        New String() {}'Masa
     }
     Private valores As Double()() = {
         New Double() {1, 0.96, 7.86, 24.67, 8.75, 36.6, 536.29},

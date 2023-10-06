@@ -22,6 +22,7 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.btnConvertir = New System.Windows.Forms.Button()
         Me.txtCantidadConversor = New System.Windows.Forms.TextBox()
         Me.lblTipoConversor = New System.Windows.Forms.Label()
@@ -32,6 +33,8 @@ Partial Class Form1
         Me.lblAConversor = New System.Windows.Forms.Label()
         Me.lblCantidadConversor = New System.Windows.Forms.Label()
         Me.lblRespuestaConversor = New System.Windows.Forms.Label()
+        Me.erpConversor = New System.Windows.Forms.ErrorProvider(Me.components)
+        CType(Me.erpConversor, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnConvertir
@@ -65,7 +68,7 @@ Partial Class Form1
         '
         Me.cboTipoConversor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboTipoConversor.FormattingEnabled = True
-        Me.cboTipoConversor.Items.AddRange(New Object() {"Monedas", "Longitud", "Tiempo"})
+        Me.cboTipoConversor.Items.AddRange(New Object() {"Monedas", "Longitud", "Tiempo", "Masa"})
         Me.cboTipoConversor.Location = New System.Drawing.Point(95, 48)
         Me.cboTipoConversor.Name = "cboTipoConversor"
         Me.cboTipoConversor.Size = New System.Drawing.Size(219, 21)
@@ -129,6 +132,10 @@ Partial Class Form1
         Me.lblRespuestaConversor.TabIndex = 9
         Me.lblRespuestaConversor.Text = "Respuesta: ?"
         '
+        'erpConversor
+        '
+        Me.erpConversor.ContainerControl = Me
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -145,7 +152,8 @@ Partial Class Form1
         Me.Controls.Add(Me.txtCantidadConversor)
         Me.Controls.Add(Me.btnConvertir)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "CONVERSOR"
+        CType(Me.erpConversor, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -161,4 +169,5 @@ Partial Class Form1
     Friend WithEvents lblAConversor As Label
     Friend WithEvents lblCantidadConversor As Label
     Friend WithEvents lblRespuestaConversor As Label
+    Friend WithEvents erpConversor As ErrorProvider
 End Class
