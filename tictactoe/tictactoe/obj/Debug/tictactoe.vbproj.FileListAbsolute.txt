@@ -1,0 +1,16 @@
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\bin\Debug\tictactoe.exe.config
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\bin\Debug\tictactoe.exe
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\bin\Debug\tictactoe.pdb
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\bin\Debug\tictactoe.xml
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\obj\Debug\tictactoe.vbprojAssemblyReference.cache
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\obj\Debug\tictactoe.Form1.resources
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\obj\Debug\tictactoe.Resources.resources
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\obj\Debug\tictactoe.vbproj.GenerateResource.cache
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\obj\Debug\tictactoe.vbproj.CoreCompileInputs.cache
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\obj\Debug\tictactoe.exe
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\obj\Debug\tictactoe.xml
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\obj\Debug\tictactoe.pdb
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\bin\Debug\tictactoe.exe.manifest
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\bin\Debug\tictactoe.application
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\obj\Debug\tictactoe.exe.manifest
+C:\Users\Luis Hernandez\source\repos\tictactoe\tictactoe\obj\Debug\tictactoe.application
